@@ -8,10 +8,11 @@
   
 }
 html{
-    height: 100vh;
+    
 }
 body{
     background-color: #ffdd55;
+    
 }
 header{
     background-color: var(--cor-secundaria);
@@ -92,7 +93,4 @@ header i{
     menu > ul > li{
         display: inline-block;
     }
-}
-main{
-    width: 768px;
 }
