@@ -22,6 +22,16 @@ header{
 header img{
     border-radius: 50%;
 }
+header ul{
+    list-style: none;
+}
+header a{
+    list-style: none;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 2em;
+    text-decoration: none;
+}
 main{
 
 }
@@ -48,13 +58,33 @@ main{
    
 }
 
-
+header i{
+        margin-left: auto;
+        
+    }
+    #burguer{
+        font-size: 60px;
+    }
+    
 /* media query    */
 
 @media screen and (min-width: 768px){
     i#burguer{
         display: none;
 
+    }
+    header#burguer{
+        text-align: center;
+        margin: auto;
+        width: 600px;
+        height: auto;
+    }
+    .material-symbols-outlined{
+        width: 600px;
+        height: 400px;
+    }
+    header i{
+        margin: auto;
     }
     menu{
         display: block;
