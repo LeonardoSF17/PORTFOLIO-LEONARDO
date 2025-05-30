@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+  --cor-primaria: #ffdd55;
+  --cor-secundaria: #000000;
+  
+}
+html{
+    height: 100vh;
+}
+body{
+    background-color: #ffdd55;
+}
+header{
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 2em;
+    display: flex;
+}
+header img{
+    border-radius: 50%;
+}
+main{
+
+}
+.section1{
+    display: flex;
+    gap: 16px;
+    
+}
+.section1 ul{
+    list-style: none;
+    
+}
+.section1 ul li a img{
+    border-radius: 50%;
+}
+.section2 a{
+    display: inline-block;
+    margin-top: 1.4em;
+   background-color: #000000;
+   padding: 20px;
+   border-radius: 16px;
+   text-decoration: none;
+   color: whitesmoke;
+   
+}
+
+
+/* media query    */
+
+@media screen and (min-width: 768px){
+    i#burguer{
+        display: none;
+
+    }
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+}
+main{
+    width: 768px;
+}

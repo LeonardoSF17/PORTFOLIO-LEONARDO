@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>PORTFOLIO LEONARDO</title>
 </head>
 <body>
     <header>
-        <div>A</div>
-        <div>Menu</div>
+        <div><a href="#"><img src="imagens/logo.jpg" alt=""></a></div>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickmenu()">Menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="https://leonardosf17.github.io/projeto-cardapio/">Cardapio</a></li>
+                <li><a href="#">opçao2</a></li>
+                <li><a href="#">opçao3</a></li>
+            </ul>
+        </menu>
     </header>
     <main>
     <h1>Oi! Eu sou o Leonardo, e fico feliz em ter você por aqui!</h1>
     <h2>Web-Developer</h2>
-    <section>
+    <section class="section1">
         <img src="imagens/avatar mobile.jpg" alt="minha imagem">
         <ul>
             <li>
@@ -30,10 +39,29 @@
             </li>           
         </ul>
     </section>
-    <section>
-        <a href="HIRE ME!">HIRE ME!</a>
-        <a href="Donwload CV">Donwload CV</a>
+    <section class="section2">
+        
+            <a href="HIRE ME!">HIRE ME!</a>
+        
+            <a href="Donwload CV">Donwload CV</a>
+        
     </section>
     </main>
 </body>
+<script>
+    function mudouTamanho(){
+        if (window.innerWidth >= 768){
+            itens.style.display = 'block'
+        } else {
+            itens.style.display = 'none'
+        }
+    }
+    function clickmenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+    }
+</script>
 </html>
