@@ -36,6 +36,9 @@ header a{
 main{
 
 }
+.section0 h3{
+    color: #525356;
+}
 .section1{
     display: flex;
     gap: 16px;
