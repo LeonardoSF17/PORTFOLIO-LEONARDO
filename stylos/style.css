@@ -42,6 +42,7 @@ main{
 }
 .section0 h1{
     padding: 0.6em;
+    font-size: 1em;
 }
 .section0 h3{
     color: #525356;
@@ -110,7 +111,15 @@ header i{
         display: inline-block;
     }
 }
+.section0{
+    font-size: 2em;
+}
     .section1{
         align-items: center;
-        margin: auto;
+        
+        
+        max-width: 300px;
     }
+.section2{
+    display: inline;
+}
