@@ -13,7 +13,7 @@ html{
 img#imagemmobile{ display: block;}
 
 img#imagemgrande { display: none;}
-
+#texto{ display: none;}
 body{
     background-color: var(--cor-primaria);
     
@@ -40,6 +40,7 @@ header a{
 main{
 
 }
+
 .section0 h1{
     padding: 0.6em;
     font-size: 1em;
@@ -50,9 +51,17 @@ main{
 }
 .section1{
     display: flex;
-    gap: 16px;
-   
-    
+    gap: 16px;   
+}
+.section1 p{
+    background-color: var(--cor-secundaria);
+    color: whitesmoke;
+    max-width: 600px;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .section1 ul{
     list-style: none;
@@ -85,11 +94,12 @@ header i{
 @media screen and (min-width: 768px){
     i#burguer{
         display: none;
-
     }
     img#imagemmobile{ display: none;}
 
     img#imagemgrande { display: block;}
+
+    #texto{ display: block;}
 
     header#burguer{
         text-align: center;
@@ -118,7 +128,7 @@ header i{
         align-items: center;
         
         
-        max-width: 300px;
+        
     }
 .section2{
     display: inline;
