@@ -40,12 +40,17 @@ header a{
 main{
 
 }
+.section0 h1{
+    padding: 0.6em;
+}
 .section0 h3{
     color: #525356;
+    padding: 0.6em;
 }
 .section1{
     display: flex;
     gap: 16px;
+   
     
 }
 .section1 ul{
@@ -105,3 +110,7 @@ header i{
         display: inline-block;
     }
 }
+    .section1{
+        align-items: center;
+        margin: auto;
+    }
