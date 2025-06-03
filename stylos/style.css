@@ -10,8 +10,12 @@
 html{
     
 }
+img#imagemmobile{ display: block;}
+
+img#imagemgrande { display: none;}
+
 body{
-    background-color: #ffdd55;
+    background-color: var(--cor-primaria);
     
 }
 header{
@@ -77,6 +81,10 @@ header i{
         display: none;
 
     }
+    img#imagemmobile{ display: none;}
+
+    img#imagemgrande { display: block;}
+
     header#burguer{
         text-align: center;
         margin: auto;
